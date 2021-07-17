@@ -18,7 +18,7 @@
 }
 .header_logo {
   width: 8%;
-  margin-right: 150px;
+  margin-right: auto;
 }
 .header_nav_item {
   display: flex;
@@ -120,7 +120,7 @@ a {
   font-weight: bold;
 }
 .main {
-  margin: 10% auto;
+  margin: 10% 10%;
   padding: 0 5%;
 }
 .main_message {

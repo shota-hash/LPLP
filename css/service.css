@@ -18,7 +18,7 @@
 }
 .header_logo {
   width: 8%;
-  margin-right: 150px;
+  margin-right: auto;
 }
 .header_nav_item {
   display: flex;
@@ -121,6 +121,9 @@ a {
 }
 .introduce {
   margin: 10% auto;
+}
+.introduce_content {
+  margin: 0 10%;
 }
 .card {
   display: flex;

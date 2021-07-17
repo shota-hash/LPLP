@@ -18,7 +18,7 @@
 }
 .header_logo {
   width: 8%;
-  margin-right: 150px;
+  margin-right: auto;
 }
 .header_nav_item {
   display: flex;
@@ -127,7 +127,7 @@ table {
   border-spacing: 0;
 }
 .company_content {
-  width: 90%;
+  width: 80%;
   margin: 0 auto;
   border-top: 1px solid #000;
 }
