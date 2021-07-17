@@ -111,7 +111,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: url(../img/mv.png);
+  background: url(../img/mv.png) center;
   background-size: cover;
   color: white;
 }
@@ -125,17 +125,19 @@ a {
 .card {
   display: flex;
   justify-content: space-between;
-  align-items: center;
   border-top: solid 1px #000;
   padding-top: 20px;
   padding-bottom: 20px;
 }
-.card img {
-  width: 35%;
+.card_img {
+  width: 300px;
+}
+img {
+  width: 100%;
 }
 .card_content {
-  margin-top: -14%;
-  margin-left: 25%;
+  width: 100%;
+  margin-left: 50px;
 }
 .card:nth-child(4) {
   border-bottom: solid 1px #000;

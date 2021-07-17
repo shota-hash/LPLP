@@ -117,7 +117,6 @@ a {
 }
 .contain2 {
   text-align: center;
-  width: 1100px;
   margin: 0 auto;
 }
 .contain_serif {
@@ -136,7 +135,6 @@ a {
   height: 40vh;
 }
 .top_content {
-  width: 1100px;
   margin: 0 auto;
 }
 .top_ttl {
@@ -204,6 +202,9 @@ a {
 .news {
   background-color: black;
   height: 70vh;
+  margin: 0 auto;
+}
+.news_wrapper {
   width: 1100px;
   margin: 0 auto;
 }
@@ -326,7 +327,7 @@ a {
 .responce {
   height: 50vh;
   background-color: rgb(241, 240, 240);
-  margin: 10% auto;
+  margin-top: 7%;
 }
 .responce_form {
   text-align: center;
@@ -382,7 +383,6 @@ a:hover {
   opacity: 0.7;
 }
 
-
 @media screen and (max-width: 768px) {
   .wrap {
     width: 85%;
@@ -398,8 +398,10 @@ a:hover {
   .news {
     background-color: black;
     height: 70vh;
-    width: 100%;
     margin: 0 auto;
+  }
+  .news_wrapper {
+    width: 85%;
   }
   .blog_content {
     display: flex;
